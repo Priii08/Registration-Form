@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h2>REGISTRATION FORM</h2>
+        <form id="registrationform">
+            <label for="name">NAME: </label>
+            <input type="text" id="name" required>
+
+            <label for="age">AGE: </label>
+            <input type="number" id="age" required>
+
+            <label for="email">EMAIL: </label>
+            <input type="email" id="email" required>
+
+            <label for="birthyear">BIRTH YEAR: </label>
+            <select id="birthyear" required>
+                <option value="">SELECT YEAR</option>
+            </select>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
